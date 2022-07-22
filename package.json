@@ -2,7 +2,7 @@
   "name": "digital-stock",
   "version": "0.0.1",
   "description": "",
-  "main": "main.js",
+  "main": "./src/app.js",
   "scripts": {
     "start": "electron ."
   },
@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "electron": "^19.0.8"
+  },
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1"
   }
 }
