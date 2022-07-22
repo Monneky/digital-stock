@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/general-styles.css">
     <title>Home</title>
 </head>
 <body>
@@ -25,12 +26,32 @@
                             <a class="nav-link" href="./new-list.html">Crear nueva lista</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Registros</a>
+                            <a class="nav-link" href="./registry.html">Registro</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+    <main class="container main">
+        <table class="table table-hover">
+            <thead>
+                    <tr>
+                        <th scope="col">Id</th>
+                        <th scope="col">Fecha</th>
+                        <th scope="col">Creador</th>
+                        <th scope="col">Archivo</th>
+                    </tr>
+            </thead>
+            <tbody>
+                <tr class="table-primary">
+                    <th scope="row">1</th>
+                    <td>dd/mm/aaaa</td>
+                    <td>Fulanito Perengano</td>
+                    <td><a href="#" class="file-table">File here</a></td>
+                </tr> 
+            </tbody>
+        </table>
+    </main>
 </body>
 </html>
