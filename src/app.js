@@ -9,6 +9,7 @@ const createWindow = () => {
         }
     })
     mainWindow.loadFile('src/views/index.html');
+    mainWindow.openDevTools();
 }
 
 app.whenReady().then( () => {
